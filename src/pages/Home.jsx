@@ -28,10 +28,10 @@ function Home() {
         <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
 
-     {/*  <Banner /> */}
+      <Banner />
 
       {/*  Site footer */}
       <Footer />
