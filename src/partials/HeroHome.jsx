@@ -45,7 +45,7 @@ function HeroHome() {
               Electromécanica Automotriz Mundiauto´s es una empresa dedicada a la reparación y mantenimiento de vehículos automotores, con más de 20 años de experiencia en el mercado.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
+              {/* <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
                   Start free trial
                 </a>
@@ -54,7 +54,7 @@ function HeroHome() {
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">
                   Learn more
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

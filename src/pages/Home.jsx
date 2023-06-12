@@ -9,6 +9,8 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Banner from '../partials/Banner';
 import Footer from '../partials/Footer';
+import Carousel from '../partials/Carousel';
+import GoogleMaps from '../partials/Googlemaps';
 
 function Home() {
   return (
@@ -27,7 +29,12 @@ function Home() {
         <HeroHome />
         <FeaturesBlocks />
         <FeaturesZigZag />
-        <Testimonials />
+        <div className="py-12 md:py-20 border-t border-b border-gray-800">
+          {/* Necesito hacer */}
+          <Carousel />
+        </div>
+        <GoogleMaps />
+        {/* <Testimonials /> */}
         {/* <Newsletter /> */}
       </main>
 
