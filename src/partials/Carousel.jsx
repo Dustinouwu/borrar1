@@ -40,12 +40,18 @@ function Carousel() {
 
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={1}
+          
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={3}
           loop={true}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
+          }}
         /* onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')} */
 
