@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 import {
   Routes,
   Route,
-  useLocation
+  useLocation,
+  Router
 } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet';
 import 'aos/dist/aos.css';
 import './css/style.css';
 
@@ -36,6 +37,13 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Mundi Auto's Ecuador - Tu mejor opción en electromecánica</title>
+        <meta name="description" content="Ofrecemos servicios de electromecánica en Ecuador con enfoque en soluciones industriales y comerciales. Contáctanos para más información." />
+        <meta name="keywords" content="electromecánica, Ecuador, mundiautos, mundiautos ecuador, servicios mecanicos, Ofelia electromecanica, electromecanica Ofelia, soluciones electromecánicas" />
+        <meta name="author" content="David Alexander Chávez Pérez" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
@@ -43,6 +51,8 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
     </>
+
+
   );
 }
 
