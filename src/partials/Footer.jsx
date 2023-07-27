@@ -31,7 +31,12 @@ function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Servicios</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nuestros Servicios</Link>
+                    Electromecánica Ecuador <br/>
+                    Electromecánica Ofelia
+                    Ofelia Electromecánica 
+                    Mundiautos
+                    Servicios Electromecánicos
+                    Soluciones Electromecánicas	
                   </li>
                   <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Marcas con las que trabajamos</Link>
