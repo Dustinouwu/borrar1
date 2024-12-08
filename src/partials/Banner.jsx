@@ -21,7 +21,7 @@ function Banner() {
                 Contáctanos a través<span className="hidden sm:inline"> de Whatsapp</span>
               </a>{' '}
               <BsWhatsapp className="inline-block ml-4 mr-1" fontSize={'20px'} />
-              <a className="font-medium hover:underline text-emerald-400" href="https://wa.me/5930969027526" target="_blank" rel="noreferrer">
+              <a className="font-medium hover:underline text-emerald-400" href="https://wa.me/5930992943878" target="_blank" rel="noreferrer">
                 Whatsapp
               </a>
             </div>
